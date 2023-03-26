@@ -17,5 +17,5 @@ spec:
   volumes:
     - name: primeiro-volume
       hostPath:
-        path: /run/desktop/mnt/host/wsl/volumes
+        path: /run/desktop/mnt/host/c/Users/mathe/OneDrive/Área de Trabalho
         type: Directory
