@@ -16,10 +16,10 @@ spec:
         resources:
           limits:
             memory: 512Mi
-            cpu: "1"
+            cpu: "100m"
           requests:
             memory: 256Mi
-            cpu: "0.2"
+            cpu: "10m"
         ports: 
           - containerPort: 80
         envFrom:
