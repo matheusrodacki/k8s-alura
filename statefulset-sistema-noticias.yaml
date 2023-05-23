@@ -27,7 +27,7 @@ spec:
               name: sistema-configmap
         livenessProbe:
           httpGet:
-            path: /
+            path: /inserir_noticias.php
             port: 80
           periodSeconds: 10
           failureThreshold: 3
